@@ -1,18 +1,36 @@
-# React + Vite
+# Chef Groq - AI-Powered Recipe Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Chef Groq is a smart web application that helps users create recipes based on the ingredients they have. Users can input any number and type of ingredients, and the app leverages AI to generate a detailed, easy-to-follow recipe. The generated recipes are displayed with a clear layout for an enjoyable cooking experience.  
 
-Currently, two official plugins are available:
+Reusable React components are used throughout the app to make the UI clean and maintainable.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Input any number of ingredients.
+- AI-powered recipe generation.
+- Clear and organized recipe display.
+- Reusable and modular React components for scalability.
+- Responsive and user-friendly interface.
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React.js  
+- **IDE:** Visual Studio Code  
+- **AI Integration:** Used to generate recipes dynamically from user inputs.  
+
+---
+
+## Pre-requisites
+
+Before running this project locally, make sure you have:
+
+- [Node.js](https://nodejs.org/) installed (v14 or higher recommended)  
+- npm (comes with Node.js) or yarn for managing packages  
+- Internet connection for AI integration  
+- Basic knowledge of React to understand and modify components
+
+---
